@@ -8,7 +8,7 @@ function pri(){
             notPrime = true;
         }
     }
-    if (notPrime === false) {
+    if (notPrime === false && counter >1) {
                 document.write(counter +" ");
     }
 }
